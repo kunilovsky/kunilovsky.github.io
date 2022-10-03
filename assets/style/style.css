@@ -1,0 +1,591 @@
+@charset "UTF-8";
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ossem-Rounded', sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 22px;
+  line-height: 150%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.form-control {
+  border-radius: 100px;
+  border: none;
+  padding: 14px 20px;
+}
+
+/* Main Colors */
+header {
+  font-family: 'Ossem-Rounded', sans-serif;
+  max-height: 70px;
+}
+
+.navbar-brand img {
+  max-width: 130px;
+}
+
+@media (min-width: 768px) {
+  .navbar-bg {
+    background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+    -webkit-backdrop-filter: blur(65px);
+            backdrop-filter: blur(65px);
+    border-radius: 20px;
+  }
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #040202 !important;
+}
+
+.active-nav {
+  color: #B66357 !important;
+  text-decoration: underline;
+}
+
+.nav-link:hover {
+  color: #B66357 !important;
+}
+
+/* Navbar BTN */
+.nav-link-btn_1, .nav-link-btn_2 {
+  text-decoration: none;
+  color: #B66357;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-link-btn_1 {
+  padding: 13px 30px;
+  border: 1px solid #B66357;
+  border-radius: 1000px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav-link-btn_1:hover {
+  color: #fff;
+  background: #B66357;
+}
+
+.nav-link-btn_2:hover {
+  color: #B66357;
+}
+
+/* Global */
+section {
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+.red-btn {
+  font-family: 'Ossem-Rounded', sans-serif;
+  color: #fff;
+  background: #B66357;
+  padding: 10px 25px;
+  border: 1px solid #B66357;
+  border-radius: 100px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.red-btn:hover {
+  background: #fff;
+  color: #B66357;
+}
+
+.grey-btn {
+  color: #969292;
+  font-family: 'Ossem-Rounded', sans-serif;
+}
+
+.grey-btn:hover {
+  color: #B66357;
+}
+
+.bg-lightred {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  -webkit-backdrop-filter: blur(65px);
+          backdrop-filter: blur(65px);
+  border-radius: 20px;
+  padding: 100px 30px;
+}
+
+.bg-lightred-item {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  border-radius: 20px;
+  border: none;
+}
+
+.bg-lightred-img {
+  background: url(/assets/img/bg-card.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 15px;
+  border-radius: 20px;
+}
+
+.bg-white-radius {
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.bg-lightred-radius-border {
+  border-radius: 20px;
+  border: 1px solid #F7D0C6;
+  background-color: #fff;
+}
+
+.bg-lightred-img-fluid {
+  background: url(/assets/img/bg-card-fluid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 15px;
+  border-radius: 20px;
+}
+
+/* Стортовая секция (без авторизации) */
+.start {
+  height: calc( 100vh - 70px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0;
+}
+
+.start__description {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.start__btn {
+  font-family: 'Ossem-Rounded', sans-serif;
+  font-size: 16px;
+  padding: 13px 30px;
+  border: 1px solid #B66357;
+  border-radius: 1000px;
+  background: #B66357;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fff;
+}
+
+.start__btn:hover {
+  background: #fff;
+  color: #B66357;
+}
+
+.start__img {
+  max-width: 600px;
+}
+
+/* Секция "Чем помогут наши психологи" */
+.about {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  -webkit-backdrop-filter: blur(65px);
+          backdrop-filter: blur(65px);
+  border-radius: 20px;
+  padding: 100px 0;
+}
+
+.about__link {
+  font-family: 'Ossem-Rounded', sans-serif;
+  font-size: 12px;
+  line-height: 150%;
+  border: 1px solid #040202;
+  border-radius: 1000px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background: none;
+  padding: 11px 20px;
+  margin-right: 20px;
+}
+
+.about__link:hover {
+  background: #B66357;
+  border: 1px solid #B66357;
+  color: #fff;
+}
+
+.about__link-item {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 1000px;
+  border: 1px solid #F7D0C6;
+  color: #040202;
+  text-decoration: none !important;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.about__link-item:hover {
+  background: #F7D0C6;
+  text-decoration: none !important;
+  color: #040202;
+}
+
+.tab-content > .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.active-tab {
+  background: #B66357;
+  border: 1px solid #B66357;
+  color: #fff;
+}
+
+/* Поиск категории */
+.search {
+  background: url(/assets/img/bg-seacr-section.png);
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Секция Преимуществ */
+.advantage {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  border-radius: 20px;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.advantage__card {
+  margin: 5px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  min-height: 280px;
+}
+
+.advantage__card__title img {
+  max-width: 50px;
+  padding-bottom: 18px;
+}
+
+.advantage__card__body {
+  font-size: 16px;
+}
+
+.advantage__card-end {
+  background: url(/assets/img/bg-card.png);
+}
+
+.col-cust {
+  width: 20% !important;
+}
+
+.col-cust-2 {
+  width: 35%;
+}
+
+/* Секция по критериям отбора кандидатов */
+.selection {
+  background: url(/assets/img/bg-woman.png);
+  background-repeat: no-repeat;
+  background-position-x: right 30px;
+  background-position-y: top;
+  background-size: 250px;
+}
+
+.selection__element {
+  border-radius: 20px;
+  padding: 30px 15px;
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  -webkit-backdrop-filter: blur(65px);
+          backdrop-filter: blur(65px);
+}
+
+.selection__element-end {
+  background: url(/assets/img/bg-card.png);
+  background-size: cover;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.col-cust-3 {
+  width: 45%;
+}
+
+.col-cust-4 {
+  width: 55%;
+}
+
+/* Превью карточек психологов */
+.psy-card {
+  background: url(/assets/img/bg-spir.svg);
+  position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  border: 1px solid #F7D0C6;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background: #F7D0C6;
+}
+
+.carousel-control-prev {
+  top: -50px;
+  right: 100px;
+  left: auto;
+}
+
+.carousel-control-next {
+  top: -50px;
+  right: 50px;
+  left: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.card {
+  border-radius: 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.card-body {
+  -webkit-box-shadow: 2px 4px 20px rgba(148, 92, 52, 0.2);
+          box-shadow: 2px 4px 20px rgba(148, 92, 52, 0.2);
+  border-radius: 0 0 20px 20px;
+}
+
+.card-body__title a {
+  color: #040202;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.card-body__title a:hover {
+  color: #B66357;
+  text-decoration: underline;
+}
+
+.card-body__meta span {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%);
+  border-radius: 4px;
+  padding: 15px 10px;
+  font-size: 8px;
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.card-body__category span {
+  padding: 5px 10px;
+  border-radius: 100px;
+  border: 1px solid #F7D0C6;
+  font-size: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card-body__footer {
+  font-size: 16px;
+}
+
+/* Блок-секция гарантий */
+.garant__item {
+  border: 1px solid #F7D0C6;
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px 15px;
+}
+
+.garant__item__img {
+  max-width: 40px;
+  margin-right: 15px;
+}
+
+/* Секция Как начать терапию */
+.info__element {
+  min-height: 220px;
+}
+
+.info__element__step {
+  position: absolute;
+  top: -15px;
+  right: 25px;
+  left: auto;
+  background: #B66357;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+/* Секция тарифов */
+.tarif__card {
+  min-height: 270px;
+}
+
+.tarif__price {
+  font-size: 20px;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  left: auto;
+  background: #fff;
+  border-radius: 1000px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #F7D0C6;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Секция отзывы */
+.rev-card {
+  position: relative;
+}
+
+.rev__img {
+  padding: 0;
+}
+
+.rev__title {
+  padding-top: 40px;
+}
+
+.rev__title h5 {
+  margin: 0;
+}
+
+.rev__title span {
+  font-size: 16px;
+  color: #969292;
+}
+
+.rev__text {
+  padding-top: 15px;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+/* Секция частых вопросов */
+.accordion-item {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%) !important;
+  border-radius: 20px !important;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.accordion-button {
+  background: radial-gradient(117.23% 267.04% at 6.61% 9.89%, rgba(255, 190, 181, 0.2) 0%, rgba(232, 217, 202, 0.2) 100%) !important;
+  border-radius: 20px !important;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #040202;
+}
+
+/* Footer */
+footer {
+  padding-top: 100px;
+}
+
+.contact__icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 1000px;
+  background: #F7D0C6;
+}
+
+.footer-line {
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: #F7D0C6;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav__item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-nav__item a {
+  font-family: 'Ossem-Rounded', sans-serif;
+  font-size: 16px;
+  color: #040202;
+}
+
+@media (max-width: 480px) {
+  header {
+    background: #fff !important;
+  }
+  .navbar {
+    background: #fff !important;
+  }
+  .nav-link-btn_1 {
+    display: block;
+  }
+  .nav-link-btn_2 {
+    display: block;
+  }
+  .red-btn {
+    padding: 15px 30px;
+  }
+  .start__img {
+    max-width: 320px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

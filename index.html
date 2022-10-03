@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="assets/fonts/ossem.css">
+    <link rel="stylesheet" href="assets/fonts/montserrat.css">
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div id="scroll" class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.svg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active-nav text-sm-center" aria-current="page" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-sm-center" href="#">Психологам</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-sm-center" href="#">Тарифы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-sm-center" href="#">Блог</a>
+                        </li>
+                    </ul>
+                    
+                        <a class="nav-link-btn_1 text-sm-center" href="">Подобрать психолога</a>
+                        <a class="nav-link-btn_2 ms-4 text-sm-center" href="">
+                            <img class="pe-1" src="assets/img/icon-lk.svg" alt="личный кабинет">
+                            Личный кабинет</a>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /Header -->
+
+    <!-- Main -->
+    <main>
+        <section class="start d-flex">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-start">
+                        <h2>
+                            Общайтесь с психологом онлайн <br> в любое время и в любом месте
+                        </h2>
+                        <p class="start__description">
+                            Бонус для новых клиентов: 30% <br> скидки на первую консультацию
+                        </p>
+                        <div>
+                            <a class="red-btn" href="">Подобрать психолога</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-sm-5 text-start">
+                        <img class="start__img" src="assets/img/img-start.svg" alt="animation">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container about">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-center">
+                        <img src="assets/img/img-about.svg" alt="about">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>
+                            С чем помогут наши психологи
+                        </h2>
+                        <div class="about__nav">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="about__link" id="personal-tab" data-bs-toggle="pill"
+                                        data-bs-target="#personal" type="button" role="tab" aria-controls="personal"
+                                        aria-selected="false">для Себя</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="about__link" id="kids-tab" data-bs-toggle="pill"
+                                        data-bs-target="#kids" type="button" role="tab" aria-controls="kids"
+                                        aria-selected="false">для Ребенка</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="about__link active-tab" id="family-tab" data-bs-toggle="pill"
+                                        data-bs-target="#family" type="button" role="tab" aria-controls="family"
+                                        aria-selected="true">Для пары</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                                    <a href="" class="about__link-item">Элемент 1</a>
+                                    <a href="" class="about__link-item">Элемент 2</a>
+                                    <a href="" class="about__link-item">Элемент 3</a>
+                                    <a href="" class="about__link-item">Элемент 4</a>
+                                </div>
+                                <div class="tab-pane fade" id="kids" role="tabpanel" aria-labelledby="kids-tab">
+                                    <a href="" class="about__link-item">Элемент 1</a>
+                                    <a href="" class="about__link-item">Элемент 2</a>
+                                    <a href="" class="about__link-item">Элемент 3</a>
+                                    <a href="" class="about__link-item">Элемент 4</a>
+                                </div>
+                                <div class="tab-pane fade active show" id="family" role="tabpanel"
+                                    aria-labelledby="family-tab">
+                                    <a href="" class="about__link-item">Разные взгляды на воспитание детей</a>
+                                    <a href="" class="about__link-item">Конфликты, ссоры, претензии</a>
+                                    <a href="" class="about__link-item">Сексуальные вопросы</a>
+                                    <a href="" class="about__link-item">Выход из любовного треугольника</a>
+                                    <a href="" class="about__link-item">Супруги на грани развода</a>
+                                    <a href="" class="about__link-item">Холодность и отчуждение в отношениях</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container search">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2>
+                            Не нашли подходящую категорию?
+                        </h2>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="" class="d-flex">
+                            <input type="text" class="form-control" placeholder="Напишите сюда, то что вас беспокоит">
+                            <button class="btn red-btn ms-3" type="submit">Подобрать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container advantage">
+                <div class="row">
+                    <h2>
+                        Преимущества онлайн-терапии
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="advantage__card">
+                            <div class="advantage__card__title">
+                                <img src="assets/img/icon-card-1.svg" alt="Безопасность">
+                                <h4>
+                                    Безопасные онлайн консультации
+                                </h4>
+                            </div>
+                            <div class="advantage__card__body">
+                                Все консультации проводятся на защищенном соединении
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="advantage__card">
+                            <div class="advantage__card__title">
+                                <img src="assets/img/icon-card-2.svg" alt="Безопасность">
+                                <h4>
+                                    С компьютера, планшета и телефона
+                                </h4>
+                            </div>
+                            <div class="advantage__card__body">
+                                Проводить консультации можно с любого устройства
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="advantage__card">
+                            <div class="advantage__card__title">
+                                <img src="assets/img/icon-card-3.svg" alt="Безопасность">
+                                <h4>
+                                    Экономия времени
+                                </h4>
+                            </div>
+                            <div class="advantage__card__body">
+                                Не нужно тратить время на поездки до кабинета психолога
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="advantage__card">
+                            <div class="advantage__card__title">
+                                <img src="assets/img/icon-card-4.svg" alt="Безопасность">
+                                <h4>
+                                    Гибкое рассписание
+                                </h4>
+                            </div>
+                            <div class="advantage__card__body">
+                                Вы можете назначить встречу с психологом в любое удобное время
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-3 col-cust">
+                        <div class="advantage__card">
+                            <div class="advantage__card__title">
+                                <img src="assets/img/icon-card-5.svg" alt="Безопасность">
+                                <h4>
+                                    Поменять психолога
+                                </h4>
+                            </div>
+                            <div class="advantage__card__body">
+                                Если психолог не подходит, всегда можно его поменять
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-cust">
+                        <div class="advantage__card">
+                            <div class="advantage__card__title">
+                                <img src="assets/img/icon-card-6.svg" alt="Безопасность">
+                                <h4>
+                                    Фиксированная оплата
+                                </h4>
+                            </div>
+                            <div class="advantage__card__body">
+                                только за консультацию
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-cust-2">
+                        <div class="advantage__card">
+                            <div class="advantage__card__title">
+                                <img src="assets/img/icon-card-7.svg" alt="Безопасность">
+                                <h4>
+                                    Все психологи проверены
+                                </h4>
+                            </div>
+                            <div class="advantage__card__body">
+                                Не нарвешься на неквалифицированного психолога. Так как на портале все психологи будут
+                                проверены с профессиональным образованием, опытом работы, собеседовани
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="advantage__card advantage__card-end">
+                            <div class="advantage__card__title">
+                                <h4>
+                                    Подберите подходящего психолога
+                                </h4>
+                            </div>
+                            <div class="advantage__card__body">
+                                просто заполните небольшую анкету
+                            </div>
+                            <div class="pt-4">
+                                <a href="" class="red-btn">Подобрать психолога</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container selection">
+                <div class="row">
+                    <h2>
+                        Только 1 из 10 кандидатов проходит <br> отбор на нашу команду
+                    </h2>
+                    <span class="description">
+                        Всех специалистов мы проверяем по следующим параметрам
+                    </span>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-6 col-cust-3">
+                        <div class="selection__element">
+                            <h3>
+                                Образование
+                            </h3>
+                            <p>
+                                Обязательно иметь высшее психологическое образование и сертификаты для ведения
+                                психотерапии
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-cust-4">
+                        <div class="selection__element">
+                            <h3>
+                                Профессиональные и этические качества
+                            </h3>
+                            <p>
+                                проводим собеседование с каждым психологом — проверяем психологов на толерантность и
+                                умение работать с уязвимыми группами
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-6 col-cust-4">
+                        <div class="selection__element">
+                            <h3>
+                                Опыт частной и личной практики
+                            </h3>
+                            <p>
+                                Требуем опыт работы не менее 3-х лет частной практики, личная терапия и регулярные
+                                супервизии
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-cust-3">
+                        <div class="selection__element selection__element-end d-flex">
+                            <div class="w-75">
+                                <h3>
+                                    Если вы психолог?
+                                </h3>
+                                <p>
+                                    Станьте частью нашей команды уже сейчас, просто заполните небольшую анкету
+                                </p>
+                            </div>
+                            <div>
+                                <a href="" class="red-btn d-block">Я психолог</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="psy-card">
+            <div class="container">
+                <div class="row">
+                    <h2>
+                        Выберите подходящего специалиста
+                    </h2>
+                </div>
+                <div id="psy-slide" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner p-3">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img src="assets/img/psy-1.png" class="card-img-top" alt="Фотография психолога">
+                                        <div class="card-body">
+                                            <div class="card-body__title">
+                                                <a href="" class="d-flex">
+                                                    <img src="assets/img/icon-lk.svg" alt="Иконка человека">
+                                                    <h3>Сергей Диктярев</h3>
+                                                </a>
+                                            </div>
+                                            <div class="card-body__meta mt-2">
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-diplom.svg"
+                                                        alt="Иконка диплома">
+                                                    Диплом психолога
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-portf.svg"
+                                                        alt="Иконка диплома">
+                                                    9 лет опыта
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-supervisor.svg"
+                                                        alt="Иконка диплома">
+                                                    Супервизор
+                                                </span>
+                                            </div>
+                                            <div class="card-body__category mt-4 d-flex flex-wrap">
+                                                <span>
+                                                    Абьюзивные отношения
+                                                </span>
+                                                <span>
+                                                    Измена партнера
+                                                </span>
+                                                <span>
+                                                    Сексуальные вопросы
+                                                </span>
+                                                <span>
+                                                    Конфликты, ссоры, претензии
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="mt-4 card-body__footer d-flex justify-content-between align-items-center">
+                                                <a href="" class="red-btn">Выбрать психолога</a>
+                                                <a href="" class="grey-btn">Написать психологу</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img src="assets/img/psy-1.png" class="card-img-top" alt="Фотография психолога">
+                                        <div class="card-body">
+                                            <div class="card-body__title">
+                                                <a href="" class="d-flex">
+                                                    <img src="assets/img/icon-lk.svg" alt="Иконка человека">
+                                                    <h3>Сергей Диктярев</h3>
+                                                </a>
+                                            </div>
+                                            <div class="card-body__meta mt-2">
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-diplom.svg"
+                                                        alt="Иконка диплома">
+                                                    Диплом психолога
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-portf.svg"
+                                                        alt="Иконка диплома">
+                                                    9 лет опыта
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-supervisor.svg"
+                                                        alt="Иконка диплома">
+                                                    Супервизор
+                                                </span>
+                                            </div>
+                                            <div class="card-body__category mt-4 d-flex flex-wrap">
+                                                <span>
+                                                    Абьюзивные отношения
+                                                </span>
+                                                <span>
+                                                    Измена партнера
+                                                </span>
+                                                <span>
+                                                    Сексуальные вопросы
+                                                </span>
+                                                <span>
+                                                    Конфликты, ссоры, претензии
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="mt-4 card-body__footer d-flex justify-content-between align-items-center">
+                                                <a href="" class="red-btn">Выбрать психолога</a>
+                                                <a href="" class="grey-btn">Написать психологу</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img src="assets/img/psy-1.png" class="card-img-top" alt="Фотография психолога">
+                                        <div class="card-body">
+                                            <div class="card-body__title">
+                                                <a href="" class="d-flex">
+                                                    <img src="assets/img/icon-lk.svg" alt="Иконка человека">
+                                                    <h3>Сергей Диктярев</h3>
+                                                </a>
+                                            </div>
+                                            <div class="card-body__meta mt-2">
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-diplom.svg"
+                                                        alt="Иконка диплома">
+                                                    Диплом психолога
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-portf.svg"
+                                                        alt="Иконка диплома">
+                                                    9 лет опыта
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-supervisor.svg"
+                                                        alt="Иконка диплома">
+                                                    Супервизор
+                                                </span>
+                                            </div>
+                                            <div class="card-body__category mt-4 d-flex flex-wrap">
+                                                <span>
+                                                    Абьюзивные отношения
+                                                </span>
+                                                <span>
+                                                    Измена партнера
+                                                </span>
+                                                <span>
+                                                    Сексуальные вопросы
+                                                </span>
+                                                <span>
+                                                    Конфликты, ссоры, претензии
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="mt-4 card-body__footer d-flex justify-content-between align-items-center">
+                                                <a href="" class="red-btn">Выбрать психолога</a>
+                                                <a href="" class="grey-btn">Написать психологу</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img src="assets/img/psy-1.png" class="card-img-top" alt="Фотография психолога">
+                                        <div class="card-body">
+                                            <div class="card-body__title">
+                                                <a href="" class="d-flex">
+                                                    <img src="assets/img/icon-lk.svg" alt="Иконка человека">
+                                                    <h3>Сергей Диктярев</h3>
+                                                </a>
+                                            </div>
+                                            <div class="card-body__meta mt-2">
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-diplom.svg"
+                                                        alt="Иконка диплома">
+                                                    Диплом психолога
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-portf.svg"
+                                                        alt="Иконка диплома">
+                                                    9 лет опыта
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-supervisor.svg"
+                                                        alt="Иконка диплома">
+                                                    Супервизор
+                                                </span>
+                                            </div>
+                                            <div class="card-body__category mt-4 d-flex flex-wrap">
+                                                <span>
+                                                    Абьюзивные отношения
+                                                </span>
+                                                <span>
+                                                    Измена партнера
+                                                </span>
+                                                <span>
+                                                    Сексуальные вопросы
+                                                </span>
+                                                <span>
+                                                    Конфликты, ссоры, претензии
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="mt-4 card-body__footer d-flex justify-content-between align-items-center">
+                                                <a href="" class="red-btn">Выбрать психолога</a>
+                                                <a href="" class="grey-btn">Написать психологу</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img src="assets/img/psy-1.png" class="card-img-top" alt="Фотография психолога">
+                                        <div class="card-body">
+                                            <div class="card-body__title">
+                                                <a href="" class="d-flex">
+                                                    <img src="assets/img/icon-lk.svg" alt="Иконка человека">
+                                                    <h3>Сергей Диктярев</h3>
+                                                </a>
+                                            </div>
+                                            <div class="card-body__meta mt-2">
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-diplom.svg"
+                                                        alt="Иконка диплома">
+                                                    Диплом психолога
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-portf.svg"
+                                                        alt="Иконка диплома">
+                                                    9 лет опыта
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-supervisor.svg"
+                                                        alt="Иконка диплома">
+                                                    Супервизор
+                                                </span>
+                                            </div>
+                                            <div class="card-body__category mt-4 d-flex flex-wrap">
+                                                <span>
+                                                    Абьюзивные отношения
+                                                </span>
+                                                <span>
+                                                    Измена партнера
+                                                </span>
+                                                <span>
+                                                    Сексуальные вопросы
+                                                </span>
+                                                <span>
+                                                    Конфликты, ссоры, претензии
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="mt-4 card-body__footer d-flex justify-content-between align-items-center">
+                                                <a href="" class="red-btn">Выбрать психолога</a>
+                                                <a href="" class="grey-btn">Написать психологу</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img src="assets/img/psy-1.png" class="card-img-top" alt="Фотография психолога">
+                                        <div class="card-body">
+                                            <div class="card-body__title">
+                                                <a href="" class="d-flex">
+                                                    <img src="assets/img/icon-lk.svg" alt="Иконка человека">
+                                                    <h3>Сергей Диктярев</h3>
+                                                </a>
+                                            </div>
+                                            <div class="card-body__meta mt-2">
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-diplom.svg"
+                                                        alt="Иконка диплома">
+                                                    Диплом психолога
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-portf.svg"
+                                                        alt="Иконка диплома">
+                                                    9 лет опыта
+                                                </span>
+                                                <span>
+                                                    <img class="me-1" src="assets/img/icon-supervisor.svg"
+                                                        alt="Иконка диплома">
+                                                    Супервизор
+                                                </span>
+                                            </div>
+                                            <div class="card-body__category mt-4 d-flex flex-wrap">
+                                                <span>
+                                                    Абьюзивные отношения
+                                                </span>
+                                                <span>
+                                                    Измена партнера
+                                                </span>
+                                                <span>
+                                                    Сексуальные вопросы
+                                                </span>
+                                                <span>
+                                                    Конфликты, ссоры, претензии
+                                                </span>
+                                            </div>
+                                            <div
+                                                class="mt-4 card-body__footer d-flex justify-content-between align-items-center">
+                                                <a href="" class="red-btn">Выбрать психолога</a>
+                                                <a href="" class="grey-btn">Написать психологу</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="psy-slider-btn">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#psy-slide"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Назад</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#psy-slide"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Вперед</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <h2>
+                    Гарантии
+                </h2>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="garant__item d-flex align-items-center">
+                            <div class="garant__item__img">
+                                <img src="assets/img/icon-garant-1.svg" alt="Иконка гаранта">
+                            </div>
+                            <div>
+                                <h5>
+                                    Фиксированная цена в течение года
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="garant__item d-flex align-items-center">
+                            <div class="garant__item__img">
+                                <img src="assets/img/icon-garant-2.svg" alt="Иконка гаранта">
+                            </div>
+                            <div>
+                                <h5>
+                                    Возврат денег
+                                    при отмене за 24 часа
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="garant__item d-flex align-items-center">
+                            <div class="garant__item__img">
+                                <img src="assets/img/icon-garant-3.svg" alt="Иконка гаранта">
+                            </div>
+                            <div>
+                                <h5>
+                                    Полная конфиденциальность
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="garant__item d-flex align-items-center">
+                            <div class="garant__item__img">
+                                <img src="assets/img/icon-garant-4.svg" alt="Иконка гаранта">
+                            </div>
+                            <div>
+                                <h5>
+                                    Техническая поддержка
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container bg-lightred">
+                <div class="row">
+                    <h2>
+                        Как начать терапию
+                    </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <div class="info__element bg-white-radius d-flex align-items-center position-relative">
+                            <div class="info__element__img">
+                                <img class="me-4" src="assets/img/img-element-1.svg" alt="">
+                            </div>
+                            <div class="info__element__text">
+                                <h5>
+                                    Заполните простую анкету
+                                </h5>
+                                <p>
+                                    Расскажите, что вас беспокоит и что важно в психологе
+                                </p>
+                            </div>
+                            <span class="info__element__step">
+                                Шаг 1
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="info__element bg-white-radius d-flex align-items-center position-relative">
+                            <div class="info__element__img">
+                                <img class="me-4" src="assets/img/img-element-2.svg" alt="">
+                            </div>
+                            <div class="info__element__text">
+                                <h5>
+                                    Выберите психолога
+                                </h5>
+                                <p>
+                                    Предложим подходящих специалистов и поможем, если будет сложно определиться
+                                </p>
+                            </div>
+                            <span class="info__element__step">
+                                Шаг 2
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                        <div class="info__element bg-white-radius d-flex align-items-center position-relative">
+                            <div class="info__element__img">
+                                <img class="me-4" src="assets/img/img-element-3.svg" alt="">
+                            </div>
+                            <div class="info__element__text">
+                                <h5>
+                                    Начните общение
+                                </h5>
+                                <p>
+                                    Пришлём информацию для подготовки и напомним о предстоящем занятии
+                                </p>
+                            </div>
+                            <span class="info__element__step">
+                                Шаг 3
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                        <div class="info__element bg-white-radius d-flex align-items-center position-relative">
+                            <div class="info__element__img">
+                                <img class="me-4" src="assets/img/img-element-4.svg" alt="">
+                            </div>
+                            <div class="info__element__text">
+                                <h5>
+                                    Управляйте процессом
+                                </h5>
+                                <p>
+                                    В личном кабинете легко назначать и переносить занятия
+                                </p>
+                            </div>
+                            <span class="info__element__step">
+                                Шаг 4
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2>
+                            Тарифы
+                        </h2>
+                        <p>
+                            Для вашего удобства у нас есть два основных тарифа, вы можете выбрать самый подходяший для
+                            вас
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tarif__card position-relative bg-lightred-img">
+                            <h2>
+                                Специалисты <br> с опытом <br> до 7 лет
+                            </h2>
+                            <div class="mt-4">
+                                <a href="" class="red-btn">Подобрать психолога</a>
+                            </div>
+                            <span class="tarif__price">
+                                1 750 ₽
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tarif__card position-relative bg-lightred-img">
+                            <h2>
+                                Специалисты <br> с опытом <br> больше 7 лет
+                            </h2>
+                            <div class="mt-4">
+                                <a href="" class="red-btn">Подобрать психолога</a>
+                            </div>
+                            <span class="tarif__price">
+                                2 350 ₽
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rev-card">
+            <div class="container position-relative">
+                <div class="row">
+                    <h2>
+                        Отзывы
+                    </h2>
+                </div>
+                <div id="rev-slide" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner p-3">
+                        <div class="carousel-item active">
+                            <div class="row bg-lightred-radius-border rev">
+                                <div class="col-2 rev__img">
+                                    <img src="assets/img/img-photo-1.png" class="img-fluid rounded-start"
+                                        alt="Аватар пользователя">
+                                </div>
+                                <div class="col-10">
+                                    <div class="div rev__title">
+                                        <h5>
+                                            Каплина Марина
+                                        </h5>
+                                        <span>
+                                            глава отдела продаж
+                                        </span>
+                                    </div>
+                                    <div class="rev__text">
+                                        Но надо полагать, что все-таки рассказывал профессор, иначе придется допустить,
+                                        что то же самое приснилось и Берлиозу, потому что тот сказал, внимательно
+                                        всматриваясь в лицо иностранца
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row bg-lightred-radius-border rev">
+                                <div class="col-2 rev__img">
+                                    <img src="assets/img/img-photo-1.png" class="img-fluid rounded-start"
+                                        alt="Аватар пользователя">
+                                </div>
+                                <div class="col-10">
+                                    <div class="div rev__title">
+                                        <h5>
+                                            Каплина Марина
+                                        </h5>
+                                        <span>
+                                            глава отдела продаж
+                                        </span>
+                                    </div>
+                                    <div class="rev__text">
+                                        Но надо полагать, что все-таки рассказывал профессор, иначе придется допустить,
+                                        что то же самое приснилось и Берлиозу, потому что тот сказал, внимательно
+                                        всматриваясь в лицо иностранца
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#rev-slide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Назад</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#rev-slide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Вперед</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container bg-lightred-img-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-lg-start text-center">
+                        <h2>
+                            Подари сертификат на терапию с психологом своим близким
+                        </h2>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-end">
+                        <img class="me-5" style="width: 200px;" src="assets/img/img-sert.svg"
+                            alt="Иллюстрация сертификата">
+                        <a href="" class="red-btn">Подобрать психолога</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <h2>
+                        Частые вопросы
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="accordion" id="accordion-1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="ac-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Как вы набираете психотерапевтов?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="ac-1"
+                                data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                                    использовали небезизвестный универсальный код речей. Текст генерируется абзацами
+                                    случайным образом от двух до десяти предложений в абзаце, что позволяет сделать
+                                    текст более привлекательным и живым для визуально-слухового восприятия.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="ac-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Сколько длится консультация с психологом?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="ac-2"
+                                data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                                    использовали небезизвестный универсальный код речей. Текст генерируется абзацами
+                                    случайным образом от двух до десяти предложений в абзаце, что позволяет сделать
+                                    текст более привлекательным и живым для визуально-слухового восприятия.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="ac-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    По какому часовому поясу указано время консультации с психологом?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="ac-3"
+                                data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                                    использовали небезизвестный универсальный код речей. Текст генерируется абзацами
+                                    случайным образом от двух до десяти предложений в абзаце, что позволяет сделать
+                                    текст более привлекательным и живым для визуально-слухового восприятия.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="ac-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Как происходит оплата?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="ac-3"
+                                data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                                    использовали небезизвестный универсальный код речей. Текст генерируется абзацами
+                                    случайным образом от двух до десяти предложений в абзаце, что позволяет сделать
+                                    текст более привлекательным и живым для визуально-слухового восприятия.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="ac-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Могу ли я заменить выбранного мною психолога после оплаты консультации?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="ac-3"
+                                data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                                    использовали небезизвестный универсальный код речей. Текст генерируется абзацами
+                                    случайным образом от двух до десяти предложений в абзаце, что позволяет сделать
+                                    текст более привлекательным и живым для визуально-слухового восприятия.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container bg-lightred-img-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start text-center">
+                        <h2>
+                            Подбери психолога бесплатно уже сейчас
+                        </h2>
+                    </div>
+                    <div class="col-lg-8  d-flex justify-content-between align-items-center">
+                        просто заполните анкету <br>
+                        и подберите подходящего специалиста
+                        <a href="" class="red-btn">Подобрать психолога</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- /Main -->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <h2>
+                    Гештальtt не предоставляет услуги скорой <br> психологической помощи
+                </h2>
+                <p class="p-3">
+                    Если ваши проблемы нужно решить срочно или вашей жизни и здоровью что-то <br> угрожает, пожалуйста,
+                    обратитесь в одну из этих организаций:
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mt-5">
+                    <div class="contact d-flex">
+                        <div class="contact__icon me-3">
+                            <img src="assets/img/icon-phone.svg" alt="Иконка мобильного телефона">
+                        </div>
+                        <div class="contact__text">
+                            <h4>
+                                +7 (800) 2000-122
+                            </h4>
+                            <span>Телефон доверия для детей, подростков и их родителей</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="contact d-flex">
+                        <div class="contact__icon me-3">
+                            <img src="assets/img/icon-phone.svg" alt="Иконка мобильного телефона">
+                        </div>
+                        <div class="contact__text">
+                            <h4>
+                                +7 (800) 2000-122
+                            </h4>
+                            <span>Вопросы наркомании, ВИЧ/СПИД</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="contact d-flex">
+                        <div class="contact__icon me-3">
+                            <img src="assets/img/icon-phone.svg" alt="Иконка мобильного телефона">
+                        </div>
+                        <div class="contact__text">
+                            <h4>
+                                +7 (800) 2000-122
+                            </h4>
+                            <span>Экстренная психологическая помощь</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="contact d-flex">
+                        <div class="contact__icon me-3">
+                            <img src="assets/img/icon-phone.svg" alt="Иконка мобильного телефона">
+                        </div>
+                        <div class="contact__text">
+                            <h4>
+                                +7 (800) 2000-122
+                            </h4>
+                            <span>Помощь пережившим сексуализированное насилие</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="contact d-flex">
+                        <div class="contact__icon me-3">
+                            <img src="assets/img/icon-phone.svg" alt="Иконка мобильного телефона">
+                        </div>
+                        <div class="contact__text">
+                            <h4>
+                                +7 (800) 2000-122
+                            </h4>
+                            <span>Помощь пережившим домашнее насилие </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="contact d-flex">
+                        <div class="contact__icon me-3">
+                            <img src="assets/img/icon-phone.svg" alt="Иконка мобильного телефона">
+                        </div>
+                        <div class="contact__text">
+                            <h4>
+                                +7 (800) 2000-122
+                            </h4>
+                            <span>Горячая линия для мужчин </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-line mt-5 pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-4 text-start">
+                    <img src="assets/img/logo.svg" alt="Логотип">
+                </div>
+                <div class="col-lg-4 text-start">
+                    <ul class="footer-nav">
+                        <li class="footer-nav__item">
+                            <a href="">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="">
+                                Психологам
+                            </a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="">
+                                Блог
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="footer-nav">
+                        <li class="footer-nav__item">
+                            <a href="">
+                                Частые вопросы
+                            </a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="">
+                                Стать нашим психологом
+                            </a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="">
+                                Вход в личный кабинет
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="justify-content-between d-flex pt-5 pb-5">
+                <span>
+                    © 2022 Все права защищены
+                </span>
+                <a style="color:#040202;" href="">
+                    Политика конфиденциальности
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+    <!-- JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scroll.js"></script>
+    <!-- /JS -->
+</body>
+
+</html>
