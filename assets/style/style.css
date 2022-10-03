@@ -167,7 +167,7 @@ section {
 
 .bg-lightred-radius-border {
   border-radius: 20px;
-  border: 1px solid #F7D0C6;
+  border: 1px solid #F1AD9C;
   background-color: #fff;
 }
 
@@ -237,8 +237,8 @@ section {
 }
 
 .about__link:hover {
-  background: #B66357;
-  border: 1px solid #B66357;
+  background: #F1AD9C;
+  border: 1px solid #F1AD9C;
   color: #fff;
 }
 
@@ -246,7 +246,7 @@ section {
   font-size: 14px;
   padding: 10px 20px;
   border-radius: 1000px;
-  border: 1px solid #F7D0C6;
+  border: 1px solid #F1AD9C;
   color: #040202;
   text-decoration: none !important;
   margin-right: 20px;
@@ -254,7 +254,7 @@ section {
 }
 
 .about__link-item:hover {
-  background: #F7D0C6;
+  background: #F1AD9C;
   text-decoration: none !important;
   color: #040202;
 }
@@ -268,14 +268,16 @@ section {
 }
 
 .active-tab {
-  background: #B66357;
-  border: 1px solid #B66357;
+  background: #F1AD9C;
+  border: 1px solid #F1AD9C;
   color: #fff;
 }
 
 /* Поиск категории */
 .search {
   background: url(/assets/img/bg-seacr-section.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -363,11 +365,11 @@ section {
   width: 38px;
   height: 38px;
   border-radius: 100%;
-  border: 1px solid #F7D0C6;
+  border: 1px solid #F1AD9C;
 }
 
 .carousel-control-prev:hover, .carousel-control-next:hover {
-  background: #F7D0C6;
+  background: #F1AD9C;
 }
 
 .carousel-control-prev {
@@ -422,7 +424,7 @@ section {
 .card-body__category span {
   padding: 5px 10px;
   border-radius: 100px;
-  border: 1px solid #F7D0C6;
+  border: 1px solid #F1AD9C;
   font-size: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -434,7 +436,7 @@ section {
 
 /* Блок-секция гарантий */
 .garant__item {
-  border: 1px solid #F7D0C6;
+  border: 1px solid #F1AD9C;
   border-radius: 10px;
   background: #fff;
   padding: 20px 15px;
@@ -476,7 +478,7 @@ section {
   border-radius: 1000px;
   width: 100px;
   height: 100px;
-  border: 1px solid #F7D0C6;
+  border: 1px solid #F1AD9C;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -544,13 +546,13 @@ footer {
   width: 40px;
   height: 40px;
   border-radius: 1000px;
-  background: #F7D0C6;
+  background: #F1AD9C;
 }
 
 .footer-line {
   border-width: 1px 0 1px 0;
   border-style: solid;
-  border-color: #F7D0C6;
+  border-color: #F1AD9C;
 }
 
 .footer-nav {
@@ -572,6 +574,9 @@ footer {
   /* Global */
   h2 {
     font-size: 28px;
+  }
+  h4 {
+    font-size: 20px;
   }
   header {
     background: #fff !important;
@@ -603,11 +608,36 @@ footer {
     max-width: 320px !important;
   }
   .about__nav {
-    margin-top: 12px;
+    margin-top: 20px;
   }
   .about__link {
     line-height: 150%;
     padding: 15px 20px;
+  }
+  .input-search {
+    width: 100%;
+  }
+  .advantage__card {
+    min-height: 180px;
+  }
+  .col-cust {
+    width: 100% !important;
+  }
+  .col-cust-2 {
+    width: 100% !important;
+  }
+  .selection {
+    margin-left: 0;
+    margin-right: 0;
+    background-position-x: right -30px;
+    background-position-y: top 15px;
+    background-size: 130px;
+  }
+  .col-cust-3 {
+    width: 100%;
+  }
+  .col-cust-4 {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
