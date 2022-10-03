@@ -569,8 +569,20 @@ footer {
 }
 
 @media (max-width: 480px) {
+  /* Global */
+  h2 {
+    font-size: 28px;
+  }
   header {
     background: #fff !important;
+  }
+  section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .navbar {
     background: #fff !important;
@@ -584,8 +596,18 @@ footer {
   .red-btn {
     padding: 15px 30px;
   }
+  .start {
+    height: 100%;
+  }
   .start__img {
     max-width: 320px !important;
+  }
+  .about__nav {
+    margin-top: 12px;
+  }
+  .about__link {
+    line-height: 150%;
+    padding: 15px 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
